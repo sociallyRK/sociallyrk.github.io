@@ -1,0 +1,238 @@
+html, body {
+  font-family: 'Raleway', sans-serif;
+}
+a {
+  text-decoration: none !important;
+}
+#about-link:hover,
+#portfolio-link:hover,
+#contact-link:hover {
+  cursor: pointer;
+}
+.navbar-default {
+  background: 0;
+  border: 0;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+  font-size: 18px;
+}
+.navbar-default .navbar-header>a {
+  color: #fff;
+  font-size: 24px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #7edfe7;
+}
+.navbar-default .navbar-header>a:hover {
+  color: #fff;
+}
+.navbar-default .navbar-header {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-family: cursive;
+}
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  margin-right: 30px;
+  border: 0;
+  background: 0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-default .navbar-collapse {
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.navbar-right {
+  margin: 0;
+}
+.divider {
+  margin: 0;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 0.3);
+}
+.visible-xs {
+  float: left;
+  right: 10px;
+}
+@media(max-width:768px) {
+  .navbar-default .navbar-nav>li>a {
+  color: #000;
+  font-size: 14px;
+  font-weight: 100;
+}
+.navbar-default .navbar-collapse {
+  background-color: #fff;
+}
+}
+#intro {
+  background: url(images/Background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.intro-name {
+  color: #fff;
+}
+.intro-title {
+  color: #fff;
+}
+.intro-centered {
+  position: relative;
+  top: 30%}
+#about {
+  background: #fff;
+}
+.about-centered {
+  position: relative;
+  top: 35%}
+#portfolio {
+  background: #000;
+}
+.project-title, .project-coming {
+  color: #fff;
+}
+.portfolio-centered {
+  position: relative;
+  top: 15%}
+.img-responsive:hover {
+  border: 1px solid #7edfe7;
+}
+.portfolio-row {
+  position: relative;
+  top: 60px;
+}
+@media(max-width:768px) {
+  #portfolio {
+  overflow-y: hidden;
+}
+.portfolio-row {
+  width: 80%;
+  position: relative;
+  left: 15%
+}
+.portfolio-centered {
+  top: 0;
+}
+}#contact {
+  background: #fff;
+}
+.contact-centered {
+  position: relative;
+  top: 40%
+}
+@media(min-width:1200px) {
+  .fa-row-1 {
+  left: 170px;
+}
+.fa-row-3 {
+  right: 170px;
+}
+}
+@media(min-width:992px) and (max-width:1199px) {
+  .fa-row-1 {
+  left: 100px;
+}
+.fa-row-3 {
+  right: 100px;
+}
+}
+@media(max-width:768px) {
+  .contact-centered {
+  top: 40%}
+}.fa-link {
+  color: #000;
+}
+.fa-link:hover {
+  color: #7edfe7;
+}
+.hatch {
+  animation-name: hatch;
+  -webkit-animation-name: hatch;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  visibility: visible!important;
+}
+@keyframes hatch {
+  0% {
+  transform: rotate(0deg) scaleY(0.6);
+}
+20% {
+  transform: rotate(-2deg) scaleY(1.05);
+}
+35% {
+  transform: rotate(2deg) scaleY(1);
+}
+50% {
+  transform: rotate(-2deg);
+}
+65% {
+  transform: rotate(1deg);
+}
+80% {
+  transform: rotate(-1deg);
+}
+100% {
+  transform: rotate(0deg);
+}
+}@-webkit-keyframes hatch {
+  0% {
+  -webkit-transform: rotate(0deg) scaleY(0.6);
+}
+20% {
+  -webkit-transform: rotate(-2deg) scaleY(1.05);
+}
+35% {
+  -webkit-transform: rotate(2deg) scaleY(1);
+}
+50% {
+  -webkit-transform: rotate(-2deg);
+}
+65% {
+  -webkit-transform: rotate(1deg);
+}
+80% {
+  -webkit-transform: rotate(-1deg);
+}
+100% {
+  -webkit-transform: rotate(0deg);
+}
+}.floating {
+  animation-name: floating;
+  -webkit-animation-name: floating;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+@keyframes floating {
+  0% {
+  transform: translateY(0%);
+}
+50% {
+  transform: translateY(8%);
+}
+100% {
+  transform: translateY(0%);
+}
+}@-webkit-keyframes floating {
+  0% {
+  -webkit-transform: translateY(0%);
+}
+50% {
+  -webkit-transform: translateY(8%);
+}
+100% {
+  -webkit-transform: translateY(0%);
+}
+}
